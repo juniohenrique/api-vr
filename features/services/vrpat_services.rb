@@ -7,6 +7,7 @@ class VrpatService
   headers 'Content-Type' => 'application/json'
   format :json
 
+  # faz umm get e pega um valor randomico para mostrar em tela
   def comun
    response = HTTParty.get('/comum/enumerations/VRPAT', base_uri: CONFIG['url_default'].to_s, format: :plain).parsed_response
    http_party_json = JSON.parse(response)

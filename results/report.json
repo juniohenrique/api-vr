@@ -24,32 +24,19 @@
             },
             "result": {
               "status": "passed",
-              "duration": 53946
+              "duration": 62545
             }
           },
           {
             "keyword": "Quando ",
-            "name": "eu vejo elas",
+            "name": "eu chamo o valor volta aleatoriamente",
             "line": 6,
             "match": {
               "location": "features/steps_definitions/vrpat_steps.rb:6"
             },
             "result": {
               "status": "passed",
-              "duration": 42012912
-            }
-          },
-          {
-            "keyword": "Entao ",
-            "name": "posso exibir aleatoriamente",
-            "line": 7,
-            "match": {
-              "location": "features/steps_definitions/vrpat_steps.rb:10"
-            },
-            "result": {
-              "status": "pending",
-              "error_message": "TODO (Cucumber::Pending)\n./features/steps_definitions/vrpat_steps.rb:11:in `/^posso exibir aleatoriamente$/'\nfeatures/specifications/vrpat.feature:7:in `Entao posso exibir aleatoriamente'",
-              "duration": 198972
+              "duration": 181807723
             }
           }
         ]
