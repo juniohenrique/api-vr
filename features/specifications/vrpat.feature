@@ -1,8 +1,7 @@
-# language: en
-Feature: Vrpat
+# language: pt
+Funcionalidade: Vrpat
 
-  Background:
-    # Insert steps
-
-  Scenario: First Scenario
-    # Insert steps
+  Cenario: First Scenario
+    Dado que eu quero as informacoes comum da VR
+    Quando eu vejo elas
+    Entao posso exibir aleatoriamente

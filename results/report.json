@@ -1,0 +1,59 @@
+[
+  {
+    "uri": "features/specifications/vrpat.feature",
+    "id": "vrpat",
+    "keyword": "Funcionalidade",
+    "name": "Vrpat",
+    "description": "",
+    "line": 2,
+    "elements": [
+      {
+        "id": "vrpat;first-scenario",
+        "keyword": "Cenario",
+        "name": "First Scenario",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que eu quero as informacoes comum da VR",
+            "line": 5,
+            "match": {
+              "location": "features/steps_definitions/vrpat_steps.rb:2"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53946
+            }
+          },
+          {
+            "keyword": "Quando ",
+            "name": "eu vejo elas",
+            "line": 6,
+            "match": {
+              "location": "features/steps_definitions/vrpat_steps.rb:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 42012912
+            }
+          },
+          {
+            "keyword": "Entao ",
+            "name": "posso exibir aleatoriamente",
+            "line": 7,
+            "match": {
+              "location": "features/steps_definitions/vrpat_steps.rb:10"
+            },
+            "result": {
+              "status": "pending",
+              "error_message": "TODO (Cucumber::Pending)\n./features/steps_definitions/vrpat_steps.rb:11:in `/^posso exibir aleatoriamente$/'\nfeatures/specifications/vrpat.feature:7:in `Entao posso exibir aleatoriamente'",
+              "duration": 198972
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

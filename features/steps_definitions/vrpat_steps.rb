@@ -1,6 +1,12 @@
 # frozen_string_literal: true
-######### GIVEN #########
+Dado(/^que eu quero as informacoes comum da VR$/) do
+ @lista = VrpatService.new
+end
 
-######### WHEN #########
+Quando(/^eu vejo elas$/) do
+  @lista.comun
+end
 
-######### THEN #########
+Entao(/^posso exibir aleatoriamente$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
